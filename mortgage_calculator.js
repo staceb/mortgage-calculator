@@ -22,15 +22,15 @@ function isInvalidAmount(number) {
   return isInvalidNumber(number) || number <= 0;
 }
 
-// Validate entry for loan amount
+// Validate entry for annual percentage rate
 // Return true if input is not a number and is not greater than zero
 function isInvalidApr(number) {
   return isInvalidNumber(number) || number < 0;
 }
 
 // Validate entry for loan duration
-// True if input is not a number, is less less than or equal to zero
-// and is not a whole number
+// Return true if input is not a number, is less less than or equal to zero
+// or is not a whole number
 function isInvalidDuration(number) {
   return isInvalidNumber(number) || number <= 0 || number % 1 > 0;
 }
@@ -40,7 +40,8 @@ function isInvalidContinue(input) {
   return !['y', 'n'].includes(input.toLowerCase());
 }
 
-// Ask user a question and validate response - return check for valid response
+// Ask user a question and validate response 
+// Return the user's response when validation returns true
 function getInput(question, errorMessage, validation) {
   prompt(messages(question));
   let response = readline.question();
