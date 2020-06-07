@@ -40,7 +40,7 @@ function isInvalidContinue(input) {
   return !['y', 'n'].includes(input.toLowerCase());
 }
 
-// Ask user a question and validate response 
+// Ask user a question and validate response
 // Return the user's response when validation returns true
 function getInput(question, errorMessage, validation) {
   prompt(messages(question));
