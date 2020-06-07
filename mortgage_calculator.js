@@ -52,7 +52,6 @@ function getInput(question, errorMessage, validation) {
       response = readline.question();
     }
   }
-
   return response;
 }
 
