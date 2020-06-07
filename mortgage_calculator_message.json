@@ -1,0 +1,18 @@
+{"en":{
+  "welcome": "Welcome to the Marvelous Mortgage Calculator!",
+  "get_amount": "Please enter the loan amount:",
+  "get_apr": "Please enter the Annual Percentage Rate (APR %):", 
+  "get_duration": "Please enter the loan duration in whole months:",
+  "invalid_amount": "hmm, it doesn't look like we can process that loan amount. \n> Please enter a number greater than zero.\n> For example - 1400, or 5890.66",
+  "invalid_apr": "Sorry, we're not able to process that APR %.\n> Please input a number greater than or equal to zero.\n> For example - 4, 2.54, or 3.7896432",
+  "invalid_duration": "Sorry, we're not able to process the entered loan duration.\n> Please enter a number greater than zero with no decimals or commas.\n> For example 12, 24 or 145",
+  "continue": "\nWould you like to make another calculation? (Enter y for yes or n for no)",
+  "invalid_continue": "Oops, it looks something other than 'y' or 'n' was chosen.\n> Please enter y to make another calculation, otherwise, enter n:",
+  "thankyou": "Thank you!", 
+  "loan_amount": "Loan Amount: ",
+  "currency": "$",
+  "loan_duration": "Loan Duration in months: ",
+  "apr": "Annual Percentage Rate: ",
+  "monthly_payment": "Your monthly payment will be $"
+  }
+}
